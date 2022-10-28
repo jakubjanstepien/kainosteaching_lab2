@@ -6,12 +6,12 @@ locals {
     version     = var.release_version
     # App specific tags
     criticality = "Tier 3"
-    OwnerName   = "Owner Name"
-    org         = "Company Name"
-    application = "Lab 2"
+    OwnerName   = "ZSP"
+    org         = "ZSP"
+    application = "Lab_2"
   }
 
-  service_prefix = "lab2-name"
+  service_prefix = "lab2-initials"
 }
 
 module "service" {
